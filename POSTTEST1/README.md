@@ -124,9 +124,11 @@ Program dibuat untuk:
 
 4. Hubungan Antar-Class
 
-Class `Pelanggan` digunakan untuk menyimpan data pelanggan yang melakukan pembelian. Class `Produk` digunakan untuk menyimpan data barang yang tersedia di toko, termasuk stok dan harga. Class `Transaksi` menghubungkan data pelanggan dengan data produk untuk mencatat proses pembelian.
+Class `Pelanggan` digunakan untuk menyimpan data pelanggan yang melakukan pembelian. Class `Produk` digunakan untuk menyimpan data barang yang
+tersedia di toko, termasuk stok dan harga. Class `Transaksi` menghubungkan data pelanggan dengan data produk untuk mencatat proses pembelian.
 
-Object `Transaksi` menerima object `Pelanggan` dan object `Produk` sebagai data yang digunakan dalam transaksi. Dengan demikian, transaksi dapat mengetahui pelanggan yang melakukan pembelian, produk yang dibeli, jumlah pembelian, serta total harga.
+Object `Transaksi` menerima object `Pelanggan` dan object `Produk` sebagai data yang digunakan dalam transaksi. Dengan demikian, transaksi
+dapat mengetahui pelanggan yang melakukan pembelian, produk yang dibeli, jumlah pembelian, serta total harga.
 
 Contoh:
 
@@ -339,8 +341,9 @@ Setter diuji menggunakan data valid dan tidak valid untuk membuktikan bahwa vali
     - nilai `0` ditolak karena jumlah pembelian harus lebih dari 0.
 
 9. Alur Pengujian Transaksi
-
-Pengujian transaksi dilakukan dengan membuat object transaksi berdasarkan pelanggan dan produk yang tersedia. Setelah object transaksi dibuat, program menghitung total harga berdasarkan harga produk dan jumlah pembelian. Selanjutnya program memeriksa ketersediaan stok. Jika stok mencukupi, pembelian diproses dan stok produk dikurangi. Setelah itu, detail transaksi dan struk pembelian dapat ditampilkan.
+Pengujian transaksi dilakukan dengan membuat object transaksi berdasarkan pelanggan dan produk yang tersedia. Setelah object transaksi dibuat,
+program menghitung total harga berdasarkan harga produk dan jumlah pembelian. Selanjutnya program memeriksa ketersediaan stok. Jika stok
+mencukupi, pembelian diproses dan stok produk dikurangi. Setelah itu, detail transaksi dan struk pembelian dapat ditampilkan.
 
 Contoh:
 transaksi1 = Transaksi(pelanggan1, produk1, 3)
@@ -351,7 +354,8 @@ transaksi1.cetak_struk()
 
 10. Kesimpulan
 
-Program ini menerapkan konsep dasar Pemrograman Berorientasi Objek untuk mengelola produk, pelanggan, dan transaksi pada Toko Kaca & Aluminium. Setiap class memiliki tanggung jawab yang berbeda sehingga pengelolaan data menjadi lebih terstruktur.
-
-Program juga menyediakan pengujian terhadap instance method, class method, static method, serta setter menggunakan data valid dan tidak valid. Pengujian tersebut digunakan untuk memastikan fungsi program dan validasi data berjalan sesuai dengan rancangan.
+Program ini menerapkan konsep dasar Pemrograman Berorientasi Objek untuk mengelola produk, pelanggan, dan transaksi pada Toko Kaca &
+Aluminium. Setiap class memiliki tanggung jawab yang berbeda sehingga pengelolaan data menjadi lebih terstruktur.
+Program juga menyediakan pengujian terhadap instance method, class method, static method, serta setter menggunakan data valid dan tidak valid.
+Pengujian tersebut digunakan untuk memastikan fungsi program dan validasi data berjalan sesuai dengan rancangan.
 ```
