@@ -1,3 +1,4 @@
+```text
 Sistem Pengelolaan Pesanan, Produk dan Stok pada Toko Kaca & Aluminium
 
 1. Deskripsi Program
@@ -350,3 +351,4 @@ transaksi1.cetak_struk()
 Program ini menerapkan konsep dasar Pemrograman Berorientasi Objek untuk mengelola produk, pelanggan, dan transaksi pada Toko Kaca & Aluminium. Setiap class memiliki tanggung jawab yang berbeda sehingga pengelolaan data menjadi lebih terstruktur.
 
 Program juga menyediakan pengujian terhadap instance method, class method, static method, serta setter menggunakan data valid dan tidak valid. Pengujian tersebut digunakan untuk memastikan fungsi program dan validasi data berjalan sesuai dengan rancangan.
+```
