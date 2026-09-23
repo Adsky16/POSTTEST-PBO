@@ -3,8 +3,11 @@ Sistem Pengelolaan Pesanan, Produk dan Stok pada Toko Kaca & Aluminium
 
 1. Deskripsi Program
 
-Program ini merupakan aplikasi sederhana berbasis Python yang digunakan untuk mengelola data produk, pelanggan, stok, dan transaksi pada Toko Kaca & Aluminium. Program dibuat menggunakan konsep Pemrograman Berorientasi Objek (PBO/OOP), sehingga data dan fungsi yang berkaitan dikelompokkan ke dalam beberapa class.
-Program memiliki tiga class utama, yaitu `Produk`, `Pelanggan`, dan `Transaksi`. Masing-masing class memiliki atribut dan method yang memiliki tugas yang berbeda.
+Program ini merupakan aplikasi sederhana berbasis Python yang digunakan untuk mengelola data produk, pelanggan, stok, dan transaksi pada Toko
+Kaca & Aluminium. Program dibuat menggunakan konsep Pemrograman Berorientasi Objek (PBO/OOP), sehingga data dan fungsi yang berkaitan
+dikelompokkan ke dalam beberapa class.
+Program memiliki tiga class utama, yaitu `Produk`, `Pelanggan`, dan `Transaksi`. Masing-masing class memiliki atribut dan method yang memiliki
+tugas yang berbeda.
 
 2. Tujuan Program
 
